@@ -1,0 +1,343 @@
+/* 盒子1 index2 */
+  .box-index-2 {
+    left: 10px;
+    animation: box1 12s ease-in-out infinite;
+    z-index: 9999;
+  }
+
+  .box-index-2::after {
+    animation: boxMark1 12s ease-in-out infinite;
+  }
+
+  @keyframes boxMark1 {
+    0% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    10% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    20% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    30% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    40% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    50% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    60% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    70% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    80% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    90% {
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+    100% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+  }
+
+  @keyframes box1 {
+    0% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    10% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    20% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    30% {
+      transform: translateX(245px) scale(.7);
+      z-index: 0;
+    }
+
+    40% {
+      transform: translateX(245px) scale(.7);
+      z-index: 0;
+    }
+
+    50% {
+      transform: translateX(245px) scale(.7);
+      z-index: 0;
+    }
+
+    60% {
+      transform: translateX(124px) scale(1);
+      z-index: 999;
+    }
+
+    70% {
+      transform: translateX(124px) scale(1);
+      z-index: 999;
+    }
+
+    80% {
+      transform: translateX(124px) scale(1);
+      z-index: 999;
+    }
+
+    90% {
+      transform: translateX(124px) scale(1);
+      z-index: 999;
+    }
+
+    100% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+  }
+  /* 盒子1 index2 end */
+
+  /* 盒子2 index0 */
+  .box-index-0 {
+    animation: box2 12s ease-in-out infinite;
+  }
+
+  .box-index-0::after {
+    animation: boxMark2 12s ease-in-out infinite;
+  }
+
+  @keyframes boxMark2 {
+    0% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    10% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    20% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    30% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    40% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    50% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    60% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    70% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    80% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    90% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    100% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+  }
+
+  @keyframes box2 {
+    0% {
+      transform: translateX(0) scale(1);
+      z-index: 999;
+    }
+
+    10% {
+      transform: translateX(0) scale(1);
+      z-index: 999;
+    }
+
+    20% {
+      transform: translateX(0) scale(1);
+      z-index: 999;
+    }
+
+    30% {
+      transform: translateX(-123px) scale(.7);
+      z-index: 0;
+    }
+
+    40% {
+      transform: translateX(-123px) scale(.7);
+      z-index: 0;
+    }
+
+    50% {
+      transform: translateX(-123px) scale(.7);
+      z-index: 0;
+    }
+
+    60% {
+      transform: translateX(123px) scale(.7);
+      z-index: 0;
+    }
+
+    70% {
+      transform: translateX(123px) scale(.7);
+      z-index: 0;
+    }
+
+    80% {
+      transform: translateX(123px) scale(.7);
+      z-index: 0;
+    }
+
+    90% {
+      transform: translateX(123px) scale(.7);
+      z-index: 0;
+    }
+
+    100% {
+      transform: translateX(0) scale(1);
+      z-index: 999;
+    }
+  }
+  /* 盒子2 index0 end */
+
+  /* 盒子3 index1 */
+  .box-index-1 {
+    right: 10px;
+    animation: box3 12s ease-in-out infinite;
+
+    
+  }
+
+  .box-index-1::after {
+    animation: boxMark3 12s ease-in-out infinite;
+  }
+
+  @keyframes boxMark3 {
+    0% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    10% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    20% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+
+    30% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    40% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    50% {
+      background-color: rgba(0, 0, 0, 0)
+    }
+
+    60% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    70% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    80% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    90% {
+      background-color: rgba(0, 0, 0, .3);
+    }
+
+    100% {
+      background-color: rgba(0, 0, 0, .3)
+    }
+  }
+
+  @keyframes box3 {
+    0% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    10% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    20% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+
+    30% {
+      transform: translateX(-124px) scale(1);
+      z-index: 999;
+    }
+
+    40% {
+      transform: translateX(-124px) scale(1);
+      z-index: 999;
+    }
+
+    50% {
+      transform: translateX(-124px) scale(1);
+      z-index: 999;
+    }
+
+    60% {
+      transform: translateX(-245px) scale(.7);
+      z-index: 0;
+    }
+
+    70% {
+      transform: translateX(-245px) scale(.7);
+      z-index: 0;
+    }
+
+    80% {
+      transform: translateX(-245px) scale(.7);
+      z-index: 0;
+    }
+
+    90% {
+      transform: translateX(-245px) scale(.7);
+      z-index: 0;
+    }
+
+    100% {
+      transform: translateX(0) scale(.7);
+      z-index: 0;
+    }
+  }
+  /* 盒子3 index1 end */
